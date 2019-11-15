@@ -1,0 +1,71 @@
+/*=============================================
+Pantallas de escritorio XL 1366px en adelante
+=============================================*/
+
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+
+/*=============================================
+Header
+=============================================*/
+header .logotipo{
+	width: 45%;
+}
+
+header .redes ul li i{
+	width: 35px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;   
+}
+
+.redes ul li i.fa-facebook-f{
+	background: #1475E0;
+}
+.redes ul li i.fa-instagram{
+	background: #f38bb9;
+}
+.redes ul li i.fa-twitter{
+	background: #00A6FF;
+}
+.redes ul li i.fa-youtube{
+	background: #F95F62;
+}
+.redes
+/*=============================================
+Table Horizontal LG 1024px
+=============================================*/
+@media (max-width: 1199px) and (min-width: 992px){
+
+}
+
+/*============================================= 
+Table Vertical HD 768px
+=============================================*/
+@media (max-width: 991px) and (min-width: 769px){
+
+}
+/*=============================================
+Móvil Horizontal 5M 576px
+=============================================*/
+@media (max-width: 767px) and (min-width: 576px){	
+
+}
+
+/*=============================================
+Móvil V  320px
+=============================================*/
+@media (max-width: 575px){
+	
+}
+
