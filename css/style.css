@@ -18,8 +18,12 @@ a:visited, a:link, a:focus, a:hover, a:active{
 /*=============================================
 Header
 =============================================*/
+header{
+	background: rgba(0,0,0,.3);
+}
+
 header .logotipo{
-	width: 45%;
+	width: 30%;
 }
 
 header .redes ul li i{
@@ -41,31 +45,41 @@ header .redes ul li i{
 .redes ul li i.fa-youtube{
 	background: #F95F62;
 }
-.redes
+.fa-bars{
+	font-size: 35px;
+}
+
 /*=============================================
 Table Horizontal LG 1024px
 =============================================*/
 @media (max-width: 1199px) and (min-width: 992px){
 
 }
-
 /*============================================= 
-Table Vertical HD 768px
+Table Vertical MD 768px
 =============================================*/
-@media (max-width: 991px) and (min-width: 769px){
-
+@media (max-width: 991px) and (min-width: 768px){
+	
+	header .logotipo{
+	 	width: 55%;
+	}
 }
 /*=============================================
-Móvil Horizontal 5M 576px
+Móvil Horizontal SM 576px
 =============================================*/
 @media (max-width: 767px) and (min-width: 576px){	
-
+	header .logotipo{
+	 	width: 60%;
+	}
 }
-
 /*=============================================
 Móvil V  320px
 =============================================*/
 @media (max-width: 575px){
-	
+	header .logotipo{
+	 	width: 95%;
+	}
 }
+
+
 
