@@ -102,6 +102,50 @@
 		</div>
 	</header>
 
+<!-- Buscador para móvil -->
+<div class="container d-block d-md-block py-3">
+	<div class="input-group input-group-sm">
+	    <input type="text" class="form-control" placeholder="Buscar">
+	    <div class="input-group-append">
+	      <span class="input-group-text"><i class="fas fa-search"></i></span>
+	    </div>
+  	</div>
+</div>
+
+<!--Redes sociales para móvil-->
+<div class="d-block d-md-none redes redesMovil p-0 bg-white w-100 pt-2">
+					<ul class="d-flex justify-content-center p-0">
+						<li>
+							<a href="#" target="_blank">
+								<i class="fab fa-facebook-f rounded-circle text-white mr-2 mr-sm-3">
+									
+								</i>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fab fa-instagram rounded-circle text-white mr-2 mr-sm-3">
+									
+								</i>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fab fa-twitter rounded-circle text-white mr-2 mr-sm-3">
+									
+								</i>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fab fa-youtube rounded-circle text-white mr-2 mr-sm-3">
+									
+								</i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				
 <script type="js/script.js"></script>
 </body>
 </html>

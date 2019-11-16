@@ -26,7 +26,7 @@ header .logotipo{
 	width: 30%;
 }
 
-header .redes ul li i{
+.redes ul li i{
 	width: 35px;
 	line-height: 35px;
 	text-align: center;
@@ -48,7 +48,12 @@ header .redes ul li i{
 .fa-bars{
 	font-size: 35px;
 }
-
+.redesMovil{
+	position: fixed;
+	bottom: -10px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
 /*=============================================
 Table Horizontal LG 1024px
 =============================================*/
